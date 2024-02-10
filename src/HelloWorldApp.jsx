@@ -12,3 +12,7 @@ export const HelloWorld = ({ name }) => {
 HelloWorld.propTypes = {
     name: ProTypes.string.isRequired
 }
+
+HelloWorld.defaultProps = {
+    name: 'World'
+}
